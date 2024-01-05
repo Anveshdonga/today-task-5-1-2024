@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a1{
+            border: 1px solid ;
+            height: 300px;
+            width: 500px;
+        }
+        #img1:checked~.a1{
+            background-image: url(./new-Tata-Safari.jpg);
+            background-size: cover;   
+        }
+        #img2:checked~.a1{
+            background-image: url(./yamaha-r15m-we-r-racing-bike-500x500.webp);
+            background-size:contain; 
+            background-repeat: no-repeat
+        }
+        #img3:checked~.a1{
+            background-image: url(./image-007.webp);
+            background-size: cover;
+            background-position: 0px;
+            background-repeat: no-repeat;     
+        }
+        #img4:checked~.a1{
+            background-image: url(./hx50-studio-f3q-lhs-view.webp);
+            background-size: cover;
+        }
+        #img5:checked~.a1{
+            background-image: url(./Tarom.b737-700.yr-bgg.arp.jpg);
+            background-size: cover;
+        }
+        p{
+            display: inline-block;
+            font-size: 70px;
+        }
+        #e1:hover{
+            font-size: 100px;
+            background: url(./image-007.webp);
+            border-radius: 80%; 
+        }
+        #e2:hover{
+            font-size: 100px;
+            background: url(./image-007.webp);
+            border-radius: 80%;   
+        }
+        #e3:hover{
+            font-size: 100px;
+            background: url(./image-007.webp);
+            border-radius: 80%;   
+        }
+        #e4:hover{
+            font-size: 100px;
+            background: url(./image-007.webp);
+            border-radius: 80%;
+        }   
+    </style>
+</head>
+<body>
+    <input type="radio" id="img1" name="image">car 
+    <input type="radio" id="img2" name="image">bike
+    <input type="radio" id="img3" name="image">ship
+    <input type="radio" id="img4" name="image">helicopter
+    <input type="radio" id="img5" name="image">aeroplane<br><br>
+   <div class="a1"></div>
+   <div class="new">
+    <p id="e1"> &#128512</p>
+    <p id="e2">&#128514</p>
+    <p id="e3">&#128518</p>
+    <p id="e4">&#128522</p>
+   </div>
+</div>
+</body>
+</html>
